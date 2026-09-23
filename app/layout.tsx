@@ -32,13 +32,23 @@ export const metadata: Metadata = {
     siteName: "StayNest Premium PG",
     type: "website",
     locale: "en_IN",
+
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1600,
+        height: 900,
+        alt: "StayNest Premium PG",
+      },
+    ],
   },
 
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "StayNest Premium PG",
     description:
       "Comfortable, safe and affordable PG accommodation.",
+    images: ["/og-image.png"],
   },
 
   robots: {
